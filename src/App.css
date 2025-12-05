@@ -12,6 +12,10 @@
 
 /* Hover Effect color with #7e506c with this background color = #916d8a */
 
+/* Dark Theme gradient bg-linear-to-br dark:from-slate-900 dark:via-purple-900 dark:to-slate-800 */
+
+/* Light Theme gradient bg-linear-to-br from-[#e6e6fa] via-[#f0dff5] to-[#f5c8e6] */
+
 /*------------------------------------*/
 
 @import "tailwindcss";
