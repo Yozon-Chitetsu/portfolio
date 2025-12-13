@@ -10,7 +10,7 @@ import Home from "./components/profileComps/Home.jsx";
 import Skills from "./components/skillsComps/Skills.jsx";
 import Experience from "./components/experienceComps/Experience.jsx";
 import Certification from "./components/certificationComps/Certification.jsx";
-import Education from "./components/EducationComps/Education.jsx";
+import Education from "./components/educationComps/Education.jsx";
 
 const router = createBrowserRouter([
   {
