@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="flex justify-between items-center px-7 md:py-3 py-0.5 text-xl text-[#1d1d1d] dark:text-[#e6e6fa] bg-linear-to-br from-[#e6e6fa] via-[#f0dff5] to-[#f5c8e6] dark:from-slate-900 dark:via-purple-900 dark:to-slate-800 relative">
+      <header className="flex justify-between items-center z-100 px-7 md:py-3 py-0.5 text-xl text-[#1d1d1d] dark:text-[#e6e6fa] bg-linear-to-br from-[#e6e6fa] via-[#f0dff5] to-[#f5c8e6] dark:from-slate-900 dark:via-purple-900 dark:to-slate-800 relative">
         {/* Logo */}
         <div className="logo font-bold tracking-wide">logo</div>
 
@@ -57,7 +57,7 @@ const Header = () => {
                 duration: 0.3,
                 ease: "easeInOut",
               }}
-              className="absolute right-0 z-50 top-full w-full bg-[#e6e6fa] dark:bg-[#1d1d1d] px-7 py-5 flex justify-center items-center flex-col gap-4 text-lg md:hidden overflow-hidden"
+              className="absolute right-0 z-50 top-full w-full bg-linear-to-br from-[#e6e6fa] via-[#f0dff5] to-[#f5c8e6] dark:from-slate-900 dark:via-purple-900 dark:to-slate-800px-7 py-5 flex justify-center items-center flex-col gap-4 text-lg md:hidden overflow-hidden"
             >
               <NavLink to="/" onClick={() => setIsNavbarOpen(false)}>
                 Profile

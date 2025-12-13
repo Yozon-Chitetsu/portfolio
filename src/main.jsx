@@ -5,8 +5,12 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App.jsx";
 import store from "./store/store.js";
-import ProfileHero from "./components/profileComps/ProfileHero.jsx";
 import NotFound from "./components/NotFound.jsx";
+import Home from "./components/profileComps/Home.jsx";
+import Skills from "./components/skillsComps/Skills.jsx";
+import Experience from "./components/experienceComps/Experience.jsx";
+import Certification from "./components/certificationComps/Certification.jsx";
+import Education from "./components/EducationComps/Education.jsx";
 
 const router = createBrowserRouter([
   {
@@ -14,8 +18,24 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        index: true,
-        element: <ProfileHero/>
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/skills",
+        element: <Skills />,
+      },
+      {
+        path: "/experience",
+        element: <Experience />,
+      },
+      {
+        path: "/certification",
+        element: <Certification />,
+      },
+      {
+        path: "/education",
+        element: <Education />,
       },
 
 

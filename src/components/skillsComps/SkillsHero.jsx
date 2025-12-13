@@ -1,14 +1,13 @@
 import FlipCard from "../FlipCard";
 
-const ProfileHero = () => {
+const SkillsHero = () => {
   return (
     <>
-      {/* Main card */}
-      <FlipCard key={"profileHero"}>
-        {/* We need a parent <div> with the rotate-y-180 class on the text to avoid a mirrored text image. */}
+      <FlipCard key={"skillsHero"}>
+        {/* We must need a div with "rotate-y-180" class in order to aviod mirrored image */}
         <div className="rotate-y-180">
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-extrabold mb-4">
-            Welcome to my Profile
+            Welcome to my Skills
           </h1>
           <p className="text-sm md:text-lg lg:text-xl">
             A highly motivated and passionate Full-Stack Web Developer with a
@@ -30,4 +29,4 @@ const ProfileHero = () => {
   );
 };
 
-export default ProfileHero;
+export default SkillsHero;
