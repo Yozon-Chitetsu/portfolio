@@ -34,7 +34,7 @@ function FlipCard({ children }) {
   };
 
   return (
-    <div className="relative max-w-6xl w-full min-h-screen my-20 mx-auto perspective">
+    <div className="relative max-w-6xl w-full h-100 md:min-h-screen md:my-20  my-10 mx-auto perspective">
       <motion.div
         className="absolute inset-0 w-full min-h-full transform-style-preserve-3d"
         animate={{ rotateY: isFlipped ? 180 : 0, }}

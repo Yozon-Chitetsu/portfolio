@@ -1,4 +1,5 @@
 import FlipCard from "../FlipCard";
+import TypingCycle from "../TypingCycle";
 
 const ProfileHero = () => {
   return (
@@ -8,7 +9,12 @@ const ProfileHero = () => {
         {/* We need a parent <div> with the rotate-y-180 class on the text to avoid a mirrored text image. */}
         <div className="rotate-y-180">
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-extrabold mb-4">
-            Welcome to my Profile
+            Hi!
+            <br />
+            I'm{" "}
+            <TypingCycle
+              words={["Developer", "Learner", "Problem Solver", "Anime Fan"]}
+            />
           </h1>
           <p className="text-sm md:text-lg lg:text-xl">
             A highly motivated and passionate Full-Stack Web Developer with a
