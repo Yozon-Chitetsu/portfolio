@@ -20,3 +20,9 @@
 
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
+
+
+
+body {
+  cursor: url('/assets/cursor.png'), auto; /* fallback: auto */
+}

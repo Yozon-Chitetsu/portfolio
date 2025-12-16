@@ -44,7 +44,7 @@ function FlipCard({ children }) {
         {/* FRONT */}
         <div
           className="
-            absolute overflow-auto inset-0 z-10 p-10 md:p-16 shadow-2xl text-center
+            absolute overflow-auto inset-0 p-10 md:p-16 shadow-2xl text-center
             backdrop-blur-sm bg-white/30 dark:bg-white/5
             border border-slate-200/20 dark:border-white/10
             rounded-2xl flex items-center justify-center backface-hidden"

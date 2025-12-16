@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "motion/react";
-import { BsSun } from "react-icons/bs";
-import { BiMoon } from "react-icons/bi";
 import { PiMoonFill } from "react-icons/pi";
 
 export default function ThemeToggle() {
