@@ -17,22 +17,22 @@ const Header = () => {
         {/* Desktop Nav */}
         <nav className="hidden md:block">
           <ul className="flex justify-center items-center gap-x-5">
-            <li>
-              <NavLink to="/">Profile</NavLink>
+            <li className="pointer">
+              <NavLink to="/" className="pointer">Profile</NavLink>
             </li>
-            <li>
-              <NavLink to="/skills">Skills</NavLink>
+            <li className="pointer">
+              <NavLink to="/skills" className="pointer">Skills</NavLink>
             </li>
-            <li>
-              <NavLink to="/experience">Experience</NavLink>
+            <li className="pointer">
+              <NavLink to="/experience" className="pointer">Experience</NavLink>
             </li>
-            <li>
-              <NavLink to="/certification">Certifications</NavLink>
+            <li className="pointer">
+              <NavLink to="/certification" className="pointer">Certifications</NavLink>
             </li>
-            <li>
-              <NavLink to="/education">Education</NavLink>
+            <li className="pointer">
+              <NavLink to="/education" className="pointer">Education</NavLink>
             </li>
-            <li>
+            <li className="pointer">
               <ThemeToggle />
             </li>
           </ul>

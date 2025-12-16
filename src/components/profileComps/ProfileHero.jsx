@@ -11,9 +11,9 @@ const ProfileHero = () => {
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-extrabold mb-4">
             Hi!
             <br />
-            I'm{" "}
+            I'm a{" "}
             <TypingCycle
-              words={["Developer", "Learner", "Problem Solver", "Anime Fan"]}
+              words={["Developer", "Programmer", "Coder", "Learner", "Problem Solver", "Student"]}
             />
           </h1>
           <p className="text-sm md:text-lg lg:text-xl">

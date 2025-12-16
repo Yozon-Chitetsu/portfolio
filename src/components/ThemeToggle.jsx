@@ -28,7 +28,7 @@ export default function ThemeToggle() {
     <>
       <button
         onClick={themeToggle}
-        className={`flex items-center relative px-1 py-0.5 w-20 rounded-full cursor-pointer
+        className={`flex pointer items-center relative px-1 py-0.5 w-20 rounded-full
         ${
           mode === "dark"
             ? "justify-start bg-[url(/assets/sky.jpg)] bg-cover text-[#1e1e1e]"

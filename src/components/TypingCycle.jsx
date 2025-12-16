@@ -1,11 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 
-const TypingCycle = ({
-  words = [],
-  typeSpeed = 0.06,
-  pause = 1,
-}) => {
+const TypingCycle = ({ words = [], typeSpeed = 0.06, pause = 1 }) => {
   const [text, setText] = useState("");
   const wordIndex = useRef(0);
   const tl = useRef();
@@ -57,7 +53,9 @@ const TypingCycle = ({
   }, [words, typeSpeed, pause]);
 
   return (
-    <span className="font-mono">
+    <span
+      className="font-mono bg-linear-to-br dark:from-[#e6e6fa] dark:via-[#d254f8f3] dark:to-[#f5c8e6] from-slate-900 via-purple-900 to-slate-800 bg-clip-text text-transparent"
+    >
       {text}
       <span className="ml-1 animate-pulse">|</span>
     </span>
@@ -65,3 +63,4 @@ const TypingCycle = ({
 };
 
 export default TypingCycle;
+

@@ -26,3 +26,7 @@
 body {
   cursor: url('/assets/cursor.png'), auto; /* fallback: auto */
 }
+
+.pointer{
+  cursor: url('/assets/pointer.png'), pointer; /* fallback: pointer */
+}
