@@ -8,7 +8,7 @@ import store from "./store/store.js";
 import NotFound from "./components/NotFound.jsx";
 import Home from "./components/profileComps/Home.jsx";
 import Skills from "./components/skillsComps/Skills.jsx";
-import Experience from "./components/experienceComps/Experience.jsx";
+// import Experience from "./components/experienceComps/Experience.jsx";
 import Certification from "./components/certificationComps/Certification.jsx";
 import Education from "./components/educationComps/Education.jsx";
 
@@ -18,17 +18,21 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "/",
+        index: true,
+        element: <Home />,
+      },
+      {
+        path: "/profile",
         element: <Home />,
       },
       {
         path: "/skills",
         element: <Skills />,
       },
-      {
-        path: "/experience",
-        element: <Experience />,
-      },
+      // {
+      //   path: "/experience",
+      //   element: <Experience />,
+      // },
       {
         path: "/certification",
         element: <Certification />,
@@ -38,12 +42,10 @@ const router = createBrowserRouter([
         element: <Education />,
       },
 
-
-
       {
         path: "*",
-        element: <NotFound />
-      }
+        element: <NotFound />,
+      },
     ],
   },
 ]);

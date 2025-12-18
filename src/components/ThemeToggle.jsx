@@ -40,7 +40,7 @@ export default function ThemeToggle() {
           {mode === "dark" ? (
             <PiMoonFill size={25} color="#c9c9df" />
           ) : (
-              <span class="inline-block w-6 h-6 rounded-full bg-linear-to-br from-yellow-400 via-yellow-300 to-yellow-200 drop-shadow-2xl"></span>
+            <span className="inline-block w-6 h-6 rounded-full bg-linear-to-br from-yellow-400 via-yellow-300 to-yellow-200 drop-shadow-2xl"></span>
           )}
         </motion.span>
       </button>

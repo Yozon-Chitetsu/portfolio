@@ -18,7 +18,7 @@ const SkillsHero = () => {
         <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/*-------------Front-End-----------------*/}
 
-          <div className="lg:flex-1 bg-black/10 dark:bg-white/10 backdrop-blur-md rounded-2xl p-6 md:p-8 border border-black/30 dark:border-white/30 shadow-lg">
+          <div className="bg-black/10 dark:bg-white/10 backdrop-blur-md rounded-2xl p-6 md:p-8 border border-black/30 dark:border-white/30 shadow-lg">
             <h2 className="text-2xl font-bold text-center mb-6 tracking-wide">
               Front-End
             </h2>
@@ -68,7 +68,7 @@ const SkillsHero = () => {
 
           {/*-------------Back-End-----------------*/}
 
-          <div className="lg:flex-1 bg-black/10 dark:bg-white/10 backdrop-blur-md rounded-2xl p-6 md:p-8 border border-black/30 dark:border-white/30 shadow-lg">
+          <div className=" bg-black/10 dark:bg-white/10 backdrop-blur-md rounded-2xl p-6 md:p-8 border border-black/30 dark:border-white/30 shadow-lg">
             <h2 className="text-2xl font-bold text-center mb-6 tracking-wide">
               Back-End{" "}
               <span className="text-sm font-medium opacity-70">
@@ -116,7 +116,7 @@ const SkillsHero = () => {
 
           {/*-------------Databases-----------------*/}
 
-          <div className="lg:flex-1 bg-black/10 dark:bg-white/10 backdrop-blur-md rounded-2xl p-6 md:p-8 border border-black/30 dark:border-white/30 shadow-lg">
+          <div className=" bg-black/10 dark:bg-white/10 backdrop-blur-md rounded-2xl p-6 md:p-8 border border-black/30 dark:border-white/30 shadow-lg">
             <h2 className="text-2xl font-bold text-center mb-6 tracking-wide">
               Databases{" "}
               <span className="text-sm font-medium opacity-70">
@@ -161,7 +161,7 @@ const SkillsHero = () => {
 
           {/*-------------Tools & Methodologies-----------------*/}
 
-          <div className="lg:flex-1 bg-black/10 dark:bg-white/10 backdrop-blur-md rounded-2xl p-6 md:p-8 border border-black/30 dark:border-white/30 shadow-lg">
+          <div className=" bg-black/10 dark:bg-white/10 backdrop-blur-md rounded-2xl p-6 md:p-8 border border-black/30 dark:border-white/30 shadow-lg">
             <h2 className="text-2xl font-bold text-center mb-6 tracking-wide">
               Tools & Methodologies
             </h2>
@@ -181,7 +181,7 @@ const SkillsHero = () => {
           
           {/*-------------Version Control-----------------*/}
 
-          <div className="lg:flex-1 bg-black/10 dark:bg-white/10 backdrop-blur-md rounded-2xl p-6 md:p-8 border border-black/30 dark:border-white/30 shadow-lg">
+          <div className=" bg-black/10 dark:bg-white/10 backdrop-blur-md rounded-2xl p-6 md:p-8 border border-black/30 dark:border-white/30 shadow-lg">
             <h2 className="text-2xl font-bold text-center mb-6 tracking-wide">
               Version Control
             </h2>
@@ -201,7 +201,7 @@ const SkillsHero = () => {
           
           {/*-------------Version Control-----------------*/}
 
-          <div className="lg:flex-1 bg-black/10 dark:bg-white/10 backdrop-blur-md rounded-2xl p-6 md:p-8 border border-black/30 dark:border-white/30 shadow-lg">
+          <div className=" bg-black/10 dark:bg-white/10 backdrop-blur-md rounded-2xl p-6 md:p-8 border border-black/30 dark:border-white/30 shadow-lg">
             <h2 className="text-2xl font-bold text-center mb-6 tracking-wide">
               SEO
             </h2>
