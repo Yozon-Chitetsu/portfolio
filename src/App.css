@@ -21,12 +21,20 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
+/*------------------------------------*/
 
+@layer utilities {
+  body {
+    cursor: url("/assets/cursor.png"), auto; /* fallback: auto */
+  }
 
-body {
-  cursor: url('/assets/cursor.png'), auto; /* fallback: auto */
+  .pointer {
+    cursor: url("/assets/pointer.png"), pointer; /* fallback: pointer */
+  }
+
+  .perspective-1200 {
+    perspective: 1200px;
+  }
 }
 
-.pointer{
-  cursor: url('/assets/pointer.png'), pointer; /* fallback: pointer */
-}
+/*------------------------------------*/ 

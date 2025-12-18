@@ -7,7 +7,7 @@ const ProfileHero = () => {
       {/* Main card */}
       <FlipCard key={"profileHero"}>
         {/* We need a parent <div> with the rotate-y-180 class on the text to avoid a mirrored text image. */}
-        <div className="rotate-y-180 h-full w-full">
+        <div className="rotate-y-180 w-full">
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-extrabold mb-4">
             Hi!
             <br />

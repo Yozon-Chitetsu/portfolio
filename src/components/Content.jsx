@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 
 const Content = () => {
   return (
-    <div className={`min-h-screen flex items-center justify-center text-center px-4 bg-linear-to-br from-[#e6e6fa] via-[#f0dff5] to-[#f5c8e6] dark:from-slate-900 dark:via-purple-900 dark:to-slate-800 text-slate-900 dark:text-white`}
+    <div className={`flex items-center justify-center text-center px-4 bg-linear-to-br from-[#e6e6fa] via-[#f0dff5] to-[#f5c8e6] dark:from-slate-900 dark:via-purple-900 dark:to-slate-800 text-slate-900 dark:text-white`}
       >
         {/* Floating blurred blobs */}
         <div

@@ -34,17 +34,17 @@ function FlipCard({ children }) {
   };
 
   return (
-    <div className="relative max-w-6xl w-full h-100 md:min-h-screen md:my-20  my-10 mx-auto perspective">
+    <div className="max-w-6xl w-full min-h-screen md:my-20 my-10  py-10 mx-auto perspective-1200">
       <motion.div
-        className="absolute inset-0 w-full min-h-full transform-style-preserve-3d"
+        className="w-full"
         animate={{ rotateY: isFlipped ? 180 : 0, }}
-        transition={{ duration: 1, ease: "easeInOut" }}
+        transition={{ duration: 0.6, ease: "easeInOut" }}
         onAnimationComplete={handleAnimationComplete}
       >
         {/* FRONT */}
         <div
           className="
-            absolute overflow-auto inset-0 p-10 md:p-16 shadow-2xl text-center
+            relative w-full p-10 md:p-16 shadow-2xl text-center
             backdrop-blur-sm bg-white/30 dark:bg-white/5
             border border-slate-200/20 dark:border-white/10
             rounded-2xl flex items-center justify-center backface-hidden"
@@ -55,7 +55,7 @@ function FlipCard({ children }) {
         {/* BACK */}
         <div
           className="
-            absolute overflow-auto inset-0 p-10 md:p-16 shadow-2xl text-center
+            absolute w-full p-10 md:p-16 shadow-2xl text-center
             backdrop-blur-sm bg-white/30 dark:bg-white/5
             border border-slate-200/20 dark:border-white/10
             rounded-2xl flex items-center justify-center backface-hidden rotate-y-180"
